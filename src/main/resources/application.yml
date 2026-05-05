@@ -8,18 +8,18 @@ spring:
       auto-index-creation: true
 
     redis:
-      host: redis-14740.crce286.ap-south-1-1.ec2.cloud.redislabs.com
+      host: ${REDIS_HOST}
       port: 14740
-      password: s1g5qGMKaCs1NYOrWxsfawzsqPnj1oRO
+      password: ${REDIS_PASSWORD}
 
   mongodb:
-    uri: mongodb+srv://rishitmahur58_db_user:fK67KL1PyqZmj0CK@cluster0.46pxcbh.mongodb.net/?appName=Cluster0
+    uri: ${MONGO_URI}
     database: taskManagementDB
 
 
 apininja:
   api:
-    key: RUlc1MxV4gDDfOrfAF60DSoVuCv5iifRfaX4dUwh
+    key: ${API_KEY}
 
 springdoc:
   swagger-ui:
