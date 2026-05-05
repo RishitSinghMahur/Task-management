@@ -1,0 +1,27 @@
+spring:
+  profiles:
+    active: dev
+
+
+  data:
+    mongodb:
+      auto-index-creation: true
+
+    redis:
+      host: redis-14740.crce286.ap-south-1-1.ec2.cloud.redislabs.com
+      port: 14740
+      password: s1g5qGMKaCs1NYOrWxsfawzsqPnj1oRO
+
+  mongodb:
+    uri: mongodb+srv://rishitmahur58_db_user:fK67KL1PyqZmj0CK@cluster0.46pxcbh.mongodb.net/?appName=Cluster0
+    database: taskManagementDB
+
+
+apininja:
+  api:
+    key: RUlc1MxV4gDDfOrfAF60DSoVuCv5iifRfaX4dUwh
+
+springdoc:
+  swagger-ui:
+    tagsSorter: alpha
+    operationsSorter: alpha
